@@ -71,6 +71,12 @@ console.log("Resultado de true || false: "+orResult) //true
 let combinedResult=(5>3) && (3<5) || (5<3)
 console.log("Resultado de (5>3) && (3<5) || (5<3): "+combinedResult) //true
   
+// Operador de negación
 
+console.log(!true)
 
- 
+//9. Utiliza el operador ternario
+
+let llueve = true
+llueve ? console.log("Está lloviendo") : console.log("No está lloviendo")
+ //10. Combina operadores aritméticos , de comparación y lógicos
